@@ -1,0 +1,9 @@
+public class TimeOfDay {
+    public static void main(String[] args) {
+        int hours = 13;
+
+        String timeOfDay = (hours < 12) ? "AM" : "PM";
+
+        System.out.println(timeOfDay);
+    }
+}
